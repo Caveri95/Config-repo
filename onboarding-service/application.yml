@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ONBOARDING-SERVICE
+    name: onboarding-service
   datasource:
     url: ${DATABASE_URL}
     username: ${DATABASE_USERNAME}
