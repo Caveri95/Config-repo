@@ -86,7 +86,7 @@ resilience4j:
         wait-duration: 1000
       securityServiceRetry:
         max-attempts: 2
-        wait-duration: 60000
+        wait-duration: 1000
 
 
 
