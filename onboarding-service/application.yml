@@ -58,6 +58,8 @@ client:
      url: ACCOUNTING-SERVICE
     security-service:
      url: SECURITY-SERVICE
+    profile-service:
+     url: PROFILE-SERVICE
 
 management:
   endpoints:
