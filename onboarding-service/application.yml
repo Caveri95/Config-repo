@@ -118,6 +118,9 @@ resilience4j:
       securityServiceRetry:
         max-attempts: 2
         wait-duration: 1000
+      profilerServiceRetry:
+        max-attempts: 2
+        wait-duration: 1000
 
 
 
