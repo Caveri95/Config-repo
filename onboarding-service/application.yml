@@ -16,6 +16,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+  cloud:
+    openfeign:
+      httpclient:
+        hc5:
+          enabled: true
   kafka:
     producer:
       bootstrap-servers: localhost:9092,localhost:9094
