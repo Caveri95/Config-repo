@@ -122,8 +122,16 @@ resilience4j:
         max-attempts: 2
         wait-duration: 1000
 
-
-
-
+otel:
+  metrics:
+    exporter: none
+  logs:
+    exporter: none
+  propagators:
+    - tracecontext
+  exporter:
+    otlp:
+      traces:
+        endpoint: http://localhost:4318/v1/traces
 
 
